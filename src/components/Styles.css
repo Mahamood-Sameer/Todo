@@ -1,0 +1,184 @@
+/* Home */
+
+.home{
+    padding: 20px;
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home span{
+    color:#db4c3f
+}
+.home__getstarted{
+    margin-top: 10px;
+    background-color:#db4c3f ;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.home__getstarted:hover{
+    color:white;
+}
+
+.home p{
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+
+.Forms__container{
+    display: flex;
+    justify-content: center;
+}
+
+.account__logo{
+    font-size: 80px !important;
+    margin-bottom: 10px !important;
+}
+
+/* Sign Up From */
+
+
+.Form__signup{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: aliceblue; */
+    box-shadow: 0px 0px 5px black;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.Form__signup h4{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.input__Fields{
+    margin-bottom: 50px;
+    width: 400px;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-top: none;
+    border-left: none;
+    box-shadow: 0px 0px 3px grey;
+
+}
+.SignUp__Submit__btn{
+    margin: 5px;
+    background-color: #db4c3f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.link__signIn{
+    margin-top: 15px;
+    text-decoration: none;
+}
+.link__signIn:hover{
+    text-decoration: underline;
+}
+
+
+
+/* SignIn Form  */
+
+.link__signUp{
+    margin-top: 15px;
+    text-decoration: none;
+}
+.link__signUp:hover{
+    text-decoration: underline;
+}
+
+
+
+/* Todo */
+.Avatar__logo{
+    margin-right: 10px !important;
+    background-color: orange !important;
+}
+.Todo__contents{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.your__todos{
+    margin-top: 50px;
+    padding: 50px;
+    width: 300px;
+    flex: 0.4;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.your__todo {
+    display: flex;
+    align-items: center;
+}
+
+.todo_delete{
+    cursor: pointer;
+}
+
+.your__todo li{
+    width: 40vw;
+    margin: 5px;
+}
+
+.No__todos{
+    margin-top: 60px;
+    color: grey;
+}
+
+.input__todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo__input{
+    min-width: 330px !important;
+}
+
+/* Responsive */
+
+
+
+@media (max-width:516px) {
+
+    .Add_btn{
+        margin-top: 10px;
+        padding: 5px 10px !important;
+        font-size: 18px !important;
+    }
+    .your__todo li{
+        width: 200px;
+        margin: 5px;
+    }
+
+    .Form__signup{
+        width: 300px;
+    }
+    .input__Fields{
+        width: 250px;
+    }
+
+    .home h1 {
+        font-size: 25px;
+    }
+    .home p {
+        font-size: 17px;
+    }
+}
